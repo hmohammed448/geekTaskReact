@@ -1,0 +1,26 @@
+h1 {
+    font-family: 'PT Sans';
+    color: #991f48 !important;
+}
+
+.navbar,
+.footer {
+    padding: 1rem;
+    background-color: #77777779 !important;
+}
+
+.smallDiv {
+    margin-bottom: 2rem !important;
+}
+
+small {
+    font-size: 14px;
+    letter-spacing: 0.28em;
+    color: #1a1a1a;
+}
+
+ul {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}

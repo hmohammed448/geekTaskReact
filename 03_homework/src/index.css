@@ -1,0 +1,117 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: open sans, Arial, Helvetica;
+  line-height: 1.5;
+  font-weight: 400;
+
+  /* color-scheme: light dark; */
+  color: #1a1a1a;
+  background-color: #ffffff;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box !important;
+  font-family: open sans, Arial, Helvetica !important;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+  margin-top: 1.5rem;
+}
+
+ul>li>a>div {
+  letter-spacing: 0.2em;
+  font-weight: bolder;
+  color: #ffffff;
+}
+
+.sectionThink {
+  background-color: #991f48 !important;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column nowrap;
+  min-height: 300px;
+}
+
+.sectionThink .info .btn {
+  width: 235px;
+  height: 50px;
+  border: 2px solid #ffffff;
+  border-radius: 0px !important;
+}
+
+.sectionThink .info .btn a {
+  vertical-align: middle !important;
+}
+
+.sectionDetails>div,
+.sectionPara>div {
+  color: #707070 !important;
+  font-weight: 500;
+  font-size: 1.3rem !important;
+  line-height: 1.5;
+  font-family: "Source Sans Pro", "PT Sans", "Roboto mono", monospace !important;
+}
+
+.sectionDetails>div :first-child {
+  font-size: 30px;
+  font-family: "Source Sans Pro", "PT Sans", "Roboto mono", monospace !important;
+  letter-spacing: 0.0em;
+  line-height: 1.4em;
+  margin-bottom: 1.5rem !important;
+}
+
+.sectionDetails>div {
+  text-align: center !important;
+  margin-bottom: 1.5rem !important;
+}
+
+.sectionDetails>div :first-child,
+.sectionPara>div :first-child {
+  color: #991f48 !important;
+}
+
+@media screen and (max-width:641px) {
+
+  h1,
+  small {
+    padding-left: 1rem;
+  }
+
+  .sectionThink {
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+    text-align: center;
+  }
+
+  .sectionPara>div {
+    padding-left: 1.25rem !important;
+    padding-right: 0.5rem !important;
+    font-weight: 700 !important;
+    text-align: left !important;
+  }
+
+  .sectionThink .info {
+    flex-direction: column !important;
+    align-items: center !important;
+  }
+}
