@@ -1,0 +1,62 @@
+.bg-\[url\(\'https\:\/\/flowbite\.s3\.amazonaws\.com\/docs\/jumbotron\/conference\.jpg\'\)\] {
+    background-image: url(https://images.unsplash.com/photo-1604014237800-1c9102c219da);
+    background-position: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: soft-light !important;
+}
+
+.heroContext {
+    max-width: 36rem !important;
+    margin-left: 0.5rem !important;
+}
+
+.heroContext strong {
+    color: rgb(225, 29, 72);
+}
+
+.heroContext a:first-child {
+    background-color: rgb(225, 29, 72);
+}
+
+.skeleton {
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+    gap: 5rem;
+    position: relative;
+}
+
+.skeleton-text {
+    width: 50%;
+    padding-top: 2rem;
+    margin-left: auto;
+}
+
+@media screen and (max-width:641px) {
+    .skeleton {
+        display: flex;
+        flex-flow: column nowrap;
+        padding-left: 1rem !important;
+        padding-right: 1rem !important;
+        gap: 1rem !important;
+    }
+
+    .skeleton-text {
+        width: 100%;
+        padding-top: 1rem;
+        margin-left: auto;
+        padding-left: 1rem !important;
+        padding-right: .5rem !important;
+    }
+
+    .skeleton-text h1 {
+        max-width: 100% !important;
+        font-size: 2rem;
+        line-height: 2rem;
+    }
+
+    .skeleton-text p {
+        max-width: 100%;
+    }
+}
