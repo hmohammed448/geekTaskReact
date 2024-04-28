@@ -36,7 +36,19 @@ h1 {
   margin-top: 1.5rem;
 }
 
+ul>li {
+  width: calc(100% / 5);
+  text-align: center !important;
+  padding: 1rem;
+}
+
+li:hover {
+  background-color: #991f48 !important;
+  cursor: pointer !important;
+}
+
 ul>li>a>div {
+  display: inline;
   letter-spacing: 0.2em;
   font-weight: bolder;
   color: #ffffff;
@@ -91,6 +103,13 @@ ul>li>a>div {
 }
 
 @media screen and (max-width:641px) {
+  h1 {
+    font-size: 2.2rem !important;
+  }
+
+  small {
+    font-size: 15px !important;
+  }
 
   h1,
   small {
@@ -114,4 +133,6 @@ ul>li>a>div {
     flex-direction: column !important;
     align-items: center !important;
   }
+
+
 }

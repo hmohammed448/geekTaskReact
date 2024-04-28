@@ -71,8 +71,8 @@ function App() {
         <div className="thinkHead">
           <h1 className="text-white">Think Health. Think Massage.</h1>
         </div>
-        <div className="thinkPara w-4/5 py-4 text-center">
-          <p className="px-12 font-bold text-lg">
+        <div className="thinkPara py-4 text-center">
+          <p className="px-2 font-bold text-lg">
             We are open 9am to 6pm; Monday through Sunday. If you would like to
             schedule an appointment with us, please call us at 987-654-3210
             today!
@@ -117,7 +117,7 @@ function App() {
       <hr />
       <div data-aos="fade-up" className="sectionDetails py-10 pr-4">
         <div className="clrPink">
-          <p>Family Wellness Massage Therapy</p>
+          <h1>Family Wellness Massage Therapy</h1>
           <p>888 Griffiths Way, Mainland ML 12345</p>
           <p>Tel: 987.654.3210</p>
           <p>Email: info@yoursite.com</p>

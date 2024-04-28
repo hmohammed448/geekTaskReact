@@ -8,7 +8,9 @@ const NavbarHeader = () => {
     <>
       <h1 className={navbarStyle.h1}>Family Wellness</h1>
       <div className="small mb-8">
-        <small className="font-extralight text-base font-medium">MASSAGE THERAPY</small>
+        <small className="font-extralight text-base font-medium">
+          MASSAGE THERAPY
+        </small>
       </div>
       <div className={navbarStyle.navbar}>
         <ul>
