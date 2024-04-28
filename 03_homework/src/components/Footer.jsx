@@ -6,7 +6,9 @@ const Footer = () => {
     <>
       <div className={navbarStyle.footer}>
         <div className="text-center">
-          <small>Copyright© 2024 Family Wellness. All Rights Reserved.</small>
+          <small className={navbarStyle.footerSmall}>
+            Copyright© 2024 Family Wellness. All Rights Reserved.
+          </small>
         </div>
       </div>
     </>

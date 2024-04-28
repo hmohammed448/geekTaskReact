@@ -117,7 +117,7 @@ function App() {
       <hr />
       <div data-aos="fade-up" className="sectionDetails py-10 pr-4">
         <div className="clrPink">
-          <h1>Family Wellness Massage Therapy</h1>
+          <h1 className="padding-none641">Family Wellness Massage Therapy</h1>
           <p>888 Griffiths Way, Mainland ML 12345</p>
           <p>Tel: 987.654.3210</p>
           <p>Email: info@yoursite.com</p>

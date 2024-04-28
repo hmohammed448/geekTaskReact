@@ -116,6 +116,10 @@ ul>li>a>div {
     padding-left: 1rem;
   }
 
+  .padding-none641 {
+    padding-left: 0 !important;
+  }
+
   .sectionThink {
     padding-left: 1rem !important;
     padding-right: 1rem !important;
