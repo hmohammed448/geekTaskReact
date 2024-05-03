@@ -1,6 +1,6 @@
 import React from "react";
 import cardStyle from "./compoCSS/Cards.module.css";
-function Cards() {
+function Cards({quote, author}) {
   return (
     <>
       <div className={cardStyle.card}>

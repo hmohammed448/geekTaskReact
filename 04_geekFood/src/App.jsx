@@ -4,11 +4,10 @@ import HeroPage from "./components/HeroPage";
 import Footer from "./components/Footer";
 import Skeleton from "./components/Skeleton";
 import Cards from "./components/Cards";
+import Quote from "./Pages/Quote.jsx";
 import "./App.css";
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
     <>
       <Navbar />
@@ -20,6 +19,9 @@ function App() {
         <Cards />
         <Cards />
         <Cards />
+      </section>
+      <section>
+        <Quote />
       </section>
       <Footer />
     </>
