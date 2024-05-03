@@ -20,9 +20,9 @@ function App() {
         <Cards />
         <Cards />
       </section>
-      <section>
+      {/* <section>
         <Quote />
-      </section>
+      </section> */}
       <Footer />
     </>
   );
