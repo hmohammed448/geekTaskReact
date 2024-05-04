@@ -1,0 +1,12 @@
+.btn {
+    border: 1px solid;
+    padding: 0.2rem 0.5rem;
+    border-radius: 1rem;
+    margin: 1rem;
+    background-color: cadetblue;
+    color: aliceblue;
+    cursor: pointer;
+}
+li{
+    margin-top: 1rem;
+}
