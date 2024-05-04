@@ -1,29 +1,44 @@
-import { useState } from "react";
-import Navbar from "./components/Navbar";
-import HeroPage from "./components/HeroPage";
-import Footer from "./components/Footer";
-import Skeleton from "./components/Skeleton";
-import Cards from "./components/Cards";
-import Quote from "./Pages/Quote.jsx";
+
+import Quote from "./Pages/Quote";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import "./App.css";
+import Home from "./components/Home";
+import Layout from "./components/Layout";
 
 function App() {
+  const router1 = createBrowserRouter([
+    {
+      path: "/",
+      element: <Layout />,
+      children: [
+        {
+          path: "/",
+          element: <Home />,
+        },
+        {
+          path: "/quote",
+          element: <Quote />,
+        },
+        {
+          path: "/foods",
+          element: <Home />,
+        },
+        {
+          path: "/restaurants",
+          element: <Home />,
+        },
+        {
+          path: "/contact",
+          element: <Home />,
+        },
+      ],
+    },
+  ]);
   return (
     <>
-      <Navbar />
-      <HeroPage />
-      <Skeleton />
-      <section className="container mx-auto flex flex-row flex-wrap gap-8 justify-around pb-8 pt-8">
-        <Cards />
-        <Cards />
-        <Cards />
-        <Cards />
-        <Cards />
-      </section>
-      {/* <section>
-        <Quote />
-      </section> */}
-      <Footer />
+
+      <RouterProvider router={router1} />
+    
     </>
   );
 }
